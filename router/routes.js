@@ -16,6 +16,7 @@ routes.post('/postbook',bookcontroller.createCustomer)
 routes.delete('/deletebook',bookcontroller.deleteCustomer)
 routes.put('/updatebook',bookcontroller.updateCustomer)
 routes.get('/getbyidbook',bookcontroller.customerdata)
+// routesksgbfkajgfkgb
 
 routes.get('/getorder',ordercontroller.readCustomer)
 routes.post('/postorder',ordercontroller.createCustomer)

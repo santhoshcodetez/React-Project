@@ -13,7 +13,8 @@ const createCustomer = async (req, res) => {
     }
 
 }
-
+ // checking the GIT
+ // checnk i
 const readCustomer=async(req,res)=>{
     try {
         const readCustomer=await employees.findAll();

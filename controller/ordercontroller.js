@@ -13,6 +13,10 @@ const createCustomer = async (req, res) => {
 
 }
 
+
+
+
+// Checking gitsf
 // Sequelize Fn function
 const functionhere =async(req,res)=>{
     try {

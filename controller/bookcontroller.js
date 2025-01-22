@@ -12,6 +12,9 @@ const createCustomer = async (req, res) => {
     }
 
 }
+
+
+// chec
 const customerdata=async(req,res)=>{
     try {
         const customerData = await Books.findAll({

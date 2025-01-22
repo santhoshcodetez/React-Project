@@ -17,7 +17,7 @@ const createCustomer = async (req, res) => {
             genreBook: req.body.genreBook,
             status: req.body.status,
         });
-
+            //Create Books
         for (const book of req.body.Books) {
             await Books.create({
                 title: book.title,
@@ -30,7 +30,7 @@ const createCustomer = async (req, res) => {
                 customerId: newCustomer.id,
             })
         };
-
+            // Create Employee
         for (const emp of req.body.employee) {
             await employee.create({
                 firstName: emp.firstName,
